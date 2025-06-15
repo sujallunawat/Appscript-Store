@@ -1,0 +1,174 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 14px;
+  }
+  
+  /* Top Email Box */
+  .font1 {
+    font-weight: 600;
+  }
+  .font1M {
+    font-size: larger;
+    font-weight: 700;
+  }
+  .small {
+    font-size: xx-small;
+    vertical-align: middle;
+  }
+  .mt1 {
+    margin-top: 30px;
+  }
+  .mt {
+    margin-top: 20px;
+  }
+  .upbox {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .inputbox {
+    display: flex;
+    margin-top: 30px;
+    width: 150%;
+  }
+  .inputtag {
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 100%;
+  }
+  .inputbtn {
+    margin-left: 10px;
+    border: 1px solid gray;
+    color: gray;
+    padding: 4px 20px;
+    border-radius: 2px;
+  }
+  
+  /* Info Part */
+  .currency {
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  .usabox {
+    display: flex;
+  }
+  .usabox img {
+    border-radius: 100px;
+    margin-top: 15px;
+  }
+  
+  /* Divider */
+  .horizontal {
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  /* Lower Section (dropdown-based) */
+  .lowerbox {
+    width: 100%;
+  }
+  
+  /* Section Container */
+  .section {
+
+    padding: 1rem 0;
+  }
+  
+  /* Title Row */
+  .sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  /* Arrow Symbol */
+  .arrow {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  /* Content Area */
+  .sectionContent {
+    padding-top: 0.5rem;
+    padding-left: 0.2rem;
+  }
+  .instabox {
+    display: flex;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    gap: 1rem;
+  }
+  .instabox img {
+    border-radius: 100px;
+  }
+  .paybox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 30px;
+  }
+  
+  /* Footer Text */
+  .end {
+    margin-top: 20px;
+    font-size: small;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 780px) {
+    .upbox {
+      display: block;
+    }
+    .lowerbox {
+      display: block;
+    }
+    .inputbox {
+      width: 100%;
+    }
+    .paybox {
+      width: 100%;
+    }
+  
+    .sectionContent {
+      display: none;
+    }
+  
+    .sectionContent.open {
+      display: block;
+    }
+
+    .section{
+        border-bottom: 1px solid #fff;
+    }
+  }
+  
+  @media screen and (min-width: 781px) {
+
+    .sectionHeader {
+      cursor: default;
+    }
+    .arrow {
+      display: none;
+    }
+    .sectionContent {
+      display: block !important;
+    }
+  
+    .lowerbox {
+      display: flex;
+      justify-content: space-around;
+      gap: 3rem;
+    }
+  }
+  

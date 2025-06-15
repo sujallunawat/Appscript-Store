@@ -1,0 +1,212 @@
+/*this css for top hedding and paragraph part */
+.toppart{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.hedding{
+    font-weight: 200;
+    font-size: 45px;
+    margin-top: 10px;
+}
+.para1{
+    margin-top: 10px;
+}
+.topin{
+    width: 50%;
+    text-align: center;
+}
+/*this css filter bar for hide and show side bar and dispalying number of products */
+.filterbar{
+    width: 80%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 40px;
+    padding:10px;
+}
+.filterno{
+    font-weight: 600;
+}
+.filter{
+    margin-left: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Loading div on page */
+.loadingmain{
+    width: 100%;
+    text-align: center;
+}
+/* Loading text on page */
+.loading{
+    font-size: 45px;
+    font-weight: 600;
+    
+}
+/* Toggle box when we hover on RECOMENDED */
+.toggle{
+    width: 15%;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    margin-left: auto;    
+    padding: 8px;
+}
+.toggle1{
+    font-weight: 600;
+    
+}
+.toggle2{
+    padding: 4px;
+    cursor: pointer;
+}
+.toggle3{
+   
+    padding: 4px;
+    cursor: pointer;
+}
+.toggle4{
+
+    padding: 4px;
+    cursor: pointer;
+}
+.toggle5{
+   
+    padding: 4px;
+    cursor: pointer;
+}
+/*this class for hide the div */
+.hidden{
+    display: none;
+    
+}
+/*this css for sidebar in Idal option  */
+.idealbox{
+    border-bottom: 1px black solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*this css for sidebar in Ocassion option  */
+.ocassionbox{
+    border-bottom: 1px black solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+/*this css for sidebar in Idal hedding */
+.hedingideal{
+    font-weight: 700; 
+    cursor: pointer;  
+}
+
+.box{
+    display: flex;
+}
+/*this css for sidebar */
+.side{
+    padding: 4px;
+    width: 20%;
+}
+/*this css for sidebar in costomize option */
+.costomize{
+    border-bottom: 1px solid black;
+}
+/*this css for flex sidebar and porducts */
+.container{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+/*this css for RECOMENDED option */
+.deffilter{
+    margin-left: auto;
+    cursor: pointer;
+}
+/*this css for productsor map menthod data are wrapped */
+.main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+/*this css all cards */
+.card{
+    height: 362px;
+    background-color: white;
+    color: white;
+    width: 300px;
+    margin-top: 10px;
+    /* border: 1px solid gray; */
+    overflow: hidden;
+}
+/*this css discount card text */
+.textdisco{
+    display: flex;
+    margin-top: 6px;
+    color: #888792;
+    font-size: small;
+    justify-content: space-between;
+    align-items: center;
+}
+.textdiscoin{
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 3px;
+}
+/*this css for title on card */
+.texttitle{
+    padding-top: 2px;
+    font-weight: 600;
+    color: black;
+}
+/*this css for price text on card */
+.textprice{
+    margin-top: 4px;
+}
+/*this css for rating text on card */
+.rating{
+    margin-top: 4px;
+}
+/*this css for image on card */
+.imgin{
+    height: 240px;
+    width: 250px;
+    background-color: grey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* meadia screen */
+@media screen and (max-width: 780px){
+    .container{
+        display: block;
+        
+    }
+    .side{
+        width: 100%;           
+    }
+    .hedding{
+        font-size: 30px;
+    }
+    .toggle{
+       width: 45%;
+    }
+
+}
