@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import styles from '../styles/main.module.css';
-import Products from './Products';
+import Products from '../Components/products';
 
 const Home = () => {
     const [products, setProducts] = useState([]);
